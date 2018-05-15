@@ -1,0 +1,460 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.row{
+	padding: 0px;
+	margin: 0px;
+}
+.contain{
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+/*-------------------------------------Slider 1------------------------------------------------------*/
+.carousel .item{
+  height: 640px ;
+}
+#carousel{
+	position: absolute;
+	top: 0px;
+	z-index: 0;
+
+}
+#chevron1{
+	position: absolute;
+	top: 515px;
+	left: 100px;
+}
+#chevron2{
+	position: absolute;
+	top: 515px;
+	left: 200px;
+}
+  /*--------------------------------------Main page first screen----------------------------*/
+#logo{
+  margin-top: 40px;
+  padding: 0px;
+}
+#btnEnter{
+   position: relative;
+   top: 35px;
+ }
+ .btnEntered{
+   width: 98px;
+   height: 44px;
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.16);
+   border-radius: 3px;
+   background-color: #117ed4;
+   color: #ffffff;
+   border: none;
+   font-size: 13px;
+   font-family: "HelveticaNeueCyr-Bold" ;
+   letter-spacing: 0.15px;
+ }
+ #nameOfPortal {
+   font-size: 48px;
+   font-weight: 700;
+   letter-spacing: 0.54px;
+   margin-top: 95px;
+   text-align: left;
+   padding: 0px;
+   font-family: "AvenirNextCyr-Bold" ;
+ }
+ .white { color: white; font-family: "AvenirNextCyr-Bold" ;}
+ .white_1 { color: white; font-family: "HelveticaNeueCyr-Roman" ;}
+ .black { color: black; font-family: "HelveticaNeueCyr-Light" ;}
+ .black_1 { color: black; font-family: "AvenirNextCyr-Bold" ; }
+ .black_2 { color: black; font-family: "AvenirNextCyr-Bold" ; font-size: 30px;}
+ #note{
+   color: #ffffff;
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 22px;
+   margin-top: 20px;
+   padding: 0px;
+   font-family: "HelveticaNeueCyr-Roman" serif;
+ }
+
+ #btnDetails{
+   width: 255px;
+   height: 55px;
+   box-shadow: 0 0 23px rgba(24, 152, 215, 0.4);
+   border-radius: 3px;
+   background-color: #117ed4;
+   border: none;
+
+ }
+ #btnDetails[value]{
+   color: #ffffff;
+   font-size: 13px;
+   font-weight: 700;
+   letter-spacing: 0.15px;
+ }
+ #details{
+   padding: 0px;
+   margin-top: 50px;
+ }
+ #sevlogo{
+  position: relative; 
+}
+/*--------------------------------Main page second screen----------------------------------------*/
+#resourse {
+  font-size: 36px;
+  font-weight: 200;
+  letter-spacing: 0.41px;
+  margin-top: 130px;
+  text-align: center;
+  font-family: "HelveticaNeueCyr-Light" ;
+}
+#resoursesnote {
+  line-height: 22px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: "HelveticaNeueCyr-Roman" ;
+}
+
+.instGo{
+  color: #127ed4;
+  font-size: 14px;
+  text-align: center;
+}
+.instName{
+  color: #000000;
+  font-size: 12px;
+  font-family: "HelveticaNeueCyr-Bold" ;
+  text-align: center;
+}
+.institute{
+	margin-top: 70px;
+}
+.institute .row{
+	padding-bottom: 25px;
+}
+.line hr{
+  margin-top: 40px;
+  width: 1133px;
+  height: 1px;
+  border: none;
+  background-color: #e5e5e5;
+}
+/*--------------------------------Массовые курсы----------------------------------------------------*/
+#masname{
+	color: #000000;
+	font-size: 24px;
+	font-weight: 700;
+	padding-bottom: 40px;
+}
+.mascourse a{
+	 color: #000000;
+	line-height: 20px;
+	text-decoration: underline;
+	margin-top: 25px;
+	font-family: "HelveticaNeueCyr-Medium" ;
+}
+.masnote p{
+	color: #8b8b8b;
+	line-height: 22px;
+	padding-bottom: 50px;
+	font-family: "HelveticaNeueCyr-Roman" ;
+}
+/*-----------------------------Стиль для ссылок посмотреть все новости и тд----------------------------*/
+.viewAll{
+	color: #127ed4;
+	font-size: 16px;
+	text-decoration: underline;
+	text-align: center;
+	margin-top: 50px;
+ font-family: "HelveticaNeueCyr-Roman" ;
+}
+/*----------------------------Slider 2-------------------------------------------------------------*/
+.slider2{
+  margin-top: 50px;
+}
+.slider2Block{
+  width: 100%; 
+  box-shadow: 0px 4px 30px rgba(1, 4, 15, 0.1);
+  height: auto;
+  margin-bottom: 55px;
+}
+
+.sl-img{
+  width: inherit;
+  object-fit: cover;
+}
+.sl-content{
+  background: white;
+  padding: 12px;
+}
+.sl-more-inf{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.sl-element{
+  padding: 20px 40px;
+}
+.blue-line{
+  background: #3178C6;
+  width: 100%;
+  height: 392px;
+  padding: 0 20px;
+  margin-top: 80px;
+  position: absolute;
+}
+.blue-line .contain p{
+margin-top: 50px;
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 0.27px;
+}
+/*--------------------------------------------------------------------------------------------------------*/
+/* ---------------------------------------Styles for search on the main page-----------------------------*/
+.searchMain{
+  margin-top: 35px;
+  border-left: 1px solid #ffffff ;
+  padding: 10px 20px;
+  margin-left: 17px;
+  font-family: "AvenirNextCyr-Medium";
+  height: 45px;
+  font-size: 14px;
+}
+.searchMain img { width: 15px; height: 15px; }
+.searchMain form { display: inline; }
+.searchMain input[placeholder] {
+  width: 200px;
+  height: 17px;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 14px;
+  /* font-family: "AvenirNextCyr-Medium"; */
+}
+::-webkit-input-placeholder {color:#ffffff; opacity:0.5;}/* webkit */
+::-moz-placeholder          {color:#ffffff; opacity:0.5;}/* Firefox 19+ */
+::-moz-placeholder           {color:#ffffff; opacity:0.5;}/* Firefox 18- */
+::-ms-input-placeholder      {color:#ffffff; opacity:0.5;}/* IE */
+/*-------------------------------------------------------------Styles for search--------------------------*/
+.search {
+  height: 44px;
+  border-left: 1px solid #ffffff;
+  margin-top: 15px;
+  padding: 10px 15px 13px 15px;
+  margin-left: 17px;
+  font-family: "AvenirNextCyr-Medium";
+}
+.search img { width: 15px; height: 15px; }
+.search form { display: inline; }
+.search input {
+  width: 200px;
+  height: 17px;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 14px;
+ font-family: "AvenirNextCyr-Medium";
+  
+}
+.search input[placeholder] {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "AvenirNextCyr-Medium";
+}
+/*-------------------------------------------------------------------------------------------------------------*/
+.Bold_b {
+	color: #393939;
+	font-family: "AvenirNextCyr-Bold" ;
+	font-weight: bold;
+	font-style: bold;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+/*-------------------------------------MainPage last screen-----------------------------------------------*/
+.advantages {
+  margin-top: 760px;
+  color: #8b8b8b;
+  font-size: 15px;
+  font-family: "HelveticaNeueCyr-Roman" ;
+}
+.advantages h4 {
+	color: #127ed4;
+	font-size: 24px;
+  font-family: "AvenirNextCyr-Bold" ;
+	margin-top: 3px;
+	margin-bottom: 20px;
+}
+/*----------------------------------------------------buttons------------------------------------*/
+.btnGo{
+  width: 266px;
+  height: 44px;
+  border-radius: 3px;
+  border: 1px solid #117dd4;
+  background-color: #fff;
+  color: #127ed4;
+  font-size: 13px;
+  font-weight: 700;
+  margin-left: 23px;
+}
+#buttons{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.but0 { padding-top: 8px; }
+.but1 {
+  width: 266px;
+  height: 44px;
+  border: 1px solid ;
+  border-radius: 4px;
+  background: transparent;
+  color: #127ED4;
+  font-family: "HelveticaNeueCyr-Bold" ;
+  font-size: 13px;
+  padding-top: 8px;
+  margin-top: 20px;
+}
+.but2 {
+  width: 209px;
+  height: 44px;
+  border: 1px solid ;
+  border-radius: 3px;
+  background: #127ED4;
+  color: white;
+  font-family: "HelveticaNeueCyr-Bold" ;
+  font-size: 13px;
+  padding-top: 8px;
+  margin-top: 20px;
+}
+.btn {
+ width: 255px;
+ height: 43px;
+ font-family: "HelveticaNeueCyr-Roman" ;
+ background-color: transparent;
+ border: 1px solid;
+ border-radius: 5px;
+ border-color: #EEEEEE;
+ padding-top: 10px;
+}
+.btn > li > a:hover { background-color: #3C74C2; text-decoration: none;}
+/*-----------------------------------------------Header---------------------------------*/
+.shapka {
+  height: 70px;
+  background-color: #3C74C2;
+  background-color: linear-gradient(90deg; #628bc8; #5992d4);
+  position: relative;
+  top: 0px;
+  left: 0px; 
+}
+.shapka .logo {
+  width: 159px;
+  height: 33px;
+  margin-top: 18px;
+} 
+.shapka button {
+  width: 98px;
+  height: 44px;
+  background-color: #113856;
+  border: 1px  #113856 solid ;
+  color: white;
+  border-radius: 4px;
+  margin-top: 13px;
+  font-family: "HelveticaNeueCyr-Bold" ;
+  font-size: 13px;
+} 
+.logo { width: 159px; height: 33px; }
+/*---------------------------------------------------------------------------------------------------*/
+.cont {
+  height: 70px;
+  top: 50px;
+  position: relative;
+}
+.cont img { margin-top: 10px;  }
+.cont_foot { padding-bottom: 20px; }
+/*-------------------------------------------------------------------------------------------------*/
+.t1 {
+  font-size: 48px;
+  color: #393939;
+  font-family: "HelveticaNeueCyr-Bold" ;
+}
+.t2 {
+  font-size: 15px;
+  color: #8B8B8B;
+  font-family: "HelveticaNeueCyr-Roman" ;
+}
+.t3 {
+  color: #127ED4;
+  font-size: 18px;
+  font-family: "AvenirNext-DemiBold";
+  text-decoration: underline;
+  /*font-weight: bold;
+  font-style: bold;*/
+}
+.t4 {
+  font-size: 15px;
+  color: #8B8B8B;
+  font-family: "HelveticaNeueCyr-Roman" ;
+  margin-top: 15px;
+  /*text-align: justify;*/
+}
+.t5 { margin-top: 90px; }
+/*-----------------------------------------footer--------------------------------------------------------*/
+.footer{
+  height: 245px;
+  background-color: #f8f8f8;
+  position: relative;
+  bottom: -30px;
+  right: 0px;
+  left: 0px;
+  color: #747474;
+  font-size: 12px;
+  font-family: "HelveticaNeueCyr-Light" ;
+}
+.r1 { padding-top: 40px; }
+.B20 { margin-top: -14px; }
+.B17 { margin-top: -12px; }
+.B12 { margin-top: -12px; }
+.B60 { margin-left: -60px; }
+/*-----------------------------------------Styles for fonts--------------------------------*/
+.Bold24 {
+  font-size: 24px; 
+  color: #393939; 
+  font-family: "AvenirNextCyr-Medium";
+  font-weight: bold;
+  font-style: bold;
+  margin-top: 50px; 
+}
+.Bold_24 {
+  color: #747474;
+  font-size: 24px; 
+  color: #434343; 
+  font-family: "AvenirNext-DemiBold";
+}
+.Bold18 {
+  font-size: 18px; 
+  color: #434343; 
+  font-family: "AvenirNext-DemiBold";
+  padding-top: 7px;
+}
+span { color: #848484; font-family: HelveticaNeueCyr-Roman; }
+/*-----------------------------------Courses table----------------------------------------*/
+.i1 { width: 255px; height: 160px;  }
+.i2 {
+ color: black;
+ font-size: 15px;
+ font-family: "HelveticaNeueCyr-Medium";
+ text-decoration: underline;
+}
+.i3 { margin-top: 52px; margin-bottom: 27px; }
+.i4 { margin-top: 34px; margin-bottom: 27px; }
+.i5 { margin-bottom: 14px; }
+.i6 { margin-bottom: 65px; }
+.col-md-10 p{ margin-top: 14px; }
+.i7 { width: 158px; height: 99px; }
+.i8 { margin-top: 25px; margin-bottom: 25px; }
+.o1 { margin-top: 14px; }
+.o2 { margin-left: 15px; }
+.dropdown { position: center; padding-top: 45px; }
+.dropdown img { margin-bottom: 10px; }
+ul { width: 255px; }

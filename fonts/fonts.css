@@ -1,0 +1,106 @@
+@font-face {
+    	font-family: "AvenirNext-DemiBold" ;
+   		src: url('./AvenirNext-DemiBold.ttf');
+   		font-weight: 600 ;
+   		font-style: 600 ;
+		}
+	@font-face {
+    	font-family: "AvenirNextCyr-Bold" ;
+   		src: url('./AvenirNextCyr-Bold.ttf');
+   		font-weight: bold;
+   		font-style: bold;
+		}
+	@font-face {
+    	font-family: "AvenirNextCyr-Medium" ;
+   		src: url('./AvenirNextCyr-Medium.ttf');
+   		font-weight: medium;
+   		font-style: medium;
+		}
+	@font-face {
+    	font-family: "AvenirNextCyr-Regular" ;
+   		src: url('./AvenirNextCyr-Regular.ttf');
+   		font-weight: lighter;
+   		font-style: lighter;
+		}
+    @font-face {
+          font-family: "HelveticaNeueCyr-Medium" ;
+          src: url('./HelveticaNeueCyr-Medium.otf');
+        }
+    @font-face {
+          font-family: "HelveticaNeueCyr-Light" ;
+          src: url('./HelveticaNeueCyr-Light.otf');
+        }
+    @font-face {
+          font-family: "HelveticaNeueCyr-Bold" ;
+          src: url('./HelveticaNeueCyr-Bold.otf');
+          font-weight: bold;
+          font-style: bold;
+        }
+    @font-face {
+          font-family: "HelveticaNeueCyr-Roman" ;
+          src: url('./HelveticaNeueCyr-Roman.otf');
+          font-size: 14px;
+        }
+    @font-face {
+          font-family: "AvenirNextCyr-Medium" ;
+          src: url('./AvenirNextCyr-Medium.ttf');
+          font-weight: medium;
+          font-style: medium;
+        }
+    @font-face {
+          font-family: "AvenirNext-DemiBold" ;
+          src: url('./AvenirNext-DemiBold.ttf');
+
+        }
+    @font-face {
+          font-family: "AvenirNextCyr-Bold" ;
+          src: url('./AvenirNextCyr-Bold.ttf');
+          font-weight: bold;
+          font-style: bold;
+        }
+    @font-face {
+          font-family: "AvenirNextCyr-Medium" ;
+          src: url('./AvenirNextCyr-Medium.ttf');
+          font-weight: medium;
+          font-style: medium;
+        }
+    @font-face {
+          font-family: "AvenirNextCyr-Regular" ;
+          src: url('./AvenirNextCyr-Regular.ttf');
+          font-weight: normal;
+          font-style: normal;
+        }
+        @font-face {
+             font-family: "HelveticaNeueCyr-Light" ;
+               src: url('./HelveticaNeueCyr-Light.otf');
+           }
+         @font-face {
+             font-family: "HelveticaNeueCyr-Bold" ;
+               src: url('./HelveticaNeueCyr-Bold.otf');
+              font-weight: bold;
+              font-style: bold;
+           }
+            @font-face {
+             font-family: "AvenirNext-DemiBold" ;
+               src: url('./AvenirNext-DemiBold.ttf');
+               font-weight: 600 ;
+               font-style: 600 ;
+           }
+         @font-face {
+             font-family: "AvenirNextCyr-Bold" ;
+               src: url('./AvenirNextCyr-Bold.ttf');
+               font-weight: bold;
+               font-style: bold;
+           }
+         @font-face {
+             font-family: "AvenirNextCyr-Medium" ;
+               src: url('./AvenirNextCyr-Medium.ttf');
+               font-weight: medium;
+               font-style: medium;
+           }
+         @font-face {
+             font-family: "AvenirNextCyr-Regular" ;
+               src: url('././AvenirNextCyr-Regular.ttf');
+               font-weight: normal;
+               font-style: normal;
+           }

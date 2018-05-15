@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.504076087">
+        <g id="Шапка" transform="translate(-352.000000, -26.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="search" transform="translate(330.000000, 12.000000)">
+                <g id="Group-4" transform="translate(23.000000, 13.000000)">
+                    <g id="Group-6">
+                        <circle id="Oval" cx="6" cy="8" r="6"></circle>
+                        <path d="M14.775,16.775 L10.725,12.725" id="Line" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
